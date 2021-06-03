@@ -122,7 +122,7 @@ body {
 }
 
 .today {
-  background-color: #b5c8bd;
+  background-color: dodgerblue;
   color: #fff;
 }
 
@@ -155,3 +155,57 @@ body {
   font-size: 30px;
   font-weight: 500;
 }
+
+#btn{
+  background-color: white;
+  border: none;
+  width: 100%;
+  cursor: pointer;
+
+}
+#btn:hover{
+  background-color: #dfe6e9;
+}
+#schedule-div{
+  display: flex;
+  
+}
+
+#append_div{
+  /* height: 100%; */
+  width: 250px;
+  /* position: relative; */
+  /* right: 0px; */
+  /* display: none; */
+  -webkit-box-flex: 1;
+  
+  -webkit-box-ordinal-group: 3;
+  -ms-flex-order: 2;
+  text-align: center;  
+}
+
+#available-times-div {
+  font-family: Lato;
+  font-weight: 300;
+  -webkit-box-flex: 2;
+  /*-ms-flex: 2;*/
+  flex: auto;
+}
+#select_time_btn{
+
+-webkit-box-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+    border: 1px solid lightblue;
+    color: dodgerblue;
+    background-color: white;
+    width: 100%;
+    font-weight: 600;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    height: 40px;
+  }
+  #select_time_btn:hover{
+    border:2px solid dodgerblue ;
+  }
+  

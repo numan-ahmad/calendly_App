@@ -18,6 +18,30 @@ p {
   font-weight: 300;
 }
 
+label {
+  font-size: 0.85rem;
+  font-family: Lato;
+  font-weight: 600;
+  color: darkslategray;
+}
+
+input {
+  display: block;
+  height: 40px;
+  border: 1px solid lightgray;
+  border-radius: 0;
+  margin: 10px 0 20px 0;
+  padding: 0 15px;
+  font-family: Lato;
+  color: darkslategray;
+  font-size: 1rem;
+}
+
+input:focus {
+  outline: 0;
+  border: 1.5px solid dodgerblue;
+  border-radius: 0;
+}
 
 
 .divider {
@@ -146,3 +170,25 @@ hgroup {
   }
 }
 /*# sourceMappingURL=styles.css.map */
+
+.back-btn {
+  margin-bottom: 30px;
+  border-radius: 50%;
+  border: 2px solid ghostwhite;
+  background-color: white;
+  height: 40px;
+  width: 40px;
+}
+
+.back-btn:hover {
+  background-color: lightblue;
+}
+
+.back-btn:focus {
+  outline: 0;
+}
+
+.back-btn .arrow-icon {
+  width: 20px;
+  margin-top: 3px;
+}
